@@ -1,5 +1,5 @@
 print('whattup')
-def x(num):
+def x2(num):
     return (num*2)
 
-print(x(1))
+print(x2(1))

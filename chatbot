@@ -1,0 +1,23 @@
+print("Hey! Welcome to my chatbot")
+answer = input("Have you watched Harry Potter?")
+answer = answer.lower()
+if (answer == "yes"):
+  print ("Okay, we can be friends")
+elif (answer == "no"):
+  print ("I'm so sorry to hear that...")
+else:
+  print ("Huh?") 
+    
+answer = input("What house do you think the sorting hat would put you in? Gryffindor, Hufflepuff Ravenclaw or Slytherin?")
+answer = answer.lower()
+if (answer == "gryffindor"):
+ print ("You must be brave!")
+elif (answer == "slytherin"):
+ print ("Well, that's a red flag. I'm gonna go now!")
+elif (answer == "hufflepuff"):
+  print ("It's okay, we appreciate you.")
+elif (answer == "ravenclaw"):
+  print ("Smartypants. Teach me more about Python.")
+else:
+  print("Sorry, that's not an answer")
+  
